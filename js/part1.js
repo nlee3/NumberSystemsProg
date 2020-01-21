@@ -13,11 +13,13 @@ function ConversionPart1() {
 
     var OutputValue = ValueOne;
     var NewNumber = "";
-    while (outputValue != 0)
+    while (OutputValue != 0)
     {
       NewNumner = (OutputValue%UnsignedIntBaseTo) + NewNumber;
       OutputValue = OutputValue/UnsignedIntBaseTo;
     }
+
+
 
     // Show the output on the screen
     FormatAndShowOutput([UnsignedInt, UnsignedIntBaseFrom, UnsignedIntBaseTo, outputValue], 1);
